@@ -5,7 +5,7 @@ var ERRORS = {
 }
 
 function createError (e) {
-  throw Error(`[vue2-inputmask-for-custom-inputs]: ${e}`)
+  throw Error(`[vue2-inputmask-custom-inputs]: ${e}`)
 }
 
 function validateBindingValue (value) {
