@@ -37,6 +37,7 @@ var inputmaskPlugin = {
                 }
                 if (nestedInput && nestedInput[0] instanceof HTMLInputElement) {
                   Inputmask(binding.value).mask(nestedInput[0])
+                  return
                 }
 
                 createError(ERRORS.INPUTS_NOT_FOUND)
